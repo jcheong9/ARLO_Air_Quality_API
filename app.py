@@ -19,11 +19,11 @@ import requests
 
 SESSION_TYPE = 'filesystem'
 app = Flask(__name__)
-app.config['CLIENT_ID'] = 'xMyRktEjNm1MJz2W6KO2bTeBImCjZRjg'
-app.config['CLIENT_SECRET'] = '2rWdiq9DDhIjfz_zeswEvgTmztGxPos6T-TkMf-QhpExttiX6LqkUd5y68qJkdwD'
+app.config['CLIENT_ID'] = 'xMyRktEjNm1MJz2W6KO2bTeBImCjZRjga'
+app.config['CLIENT_SECRET'] = '2rWdiq9DDhIjfz_zeswEvgTmztGxPos6T-TkMf-QhpExttiX6LqkUd5y68qJkdwDa'
 app.config['TOKEN_ENDPOINT'] = 'https://arlo-aq-api.auth0.com/oauth/token'
 app.config['AUDIENCE'] = 'https://ARLO-AQ/api'
-app.config['SECRET_KEY'] = '2rWdiq9DDhIjfz_zeswEvgTmztGxPos6T-TkMf-QhpExttiX6LqkUd5y68qJkdwD'
+app.config['SECRET_KEY'] = '2rWdiq9DDhIjfz_zeswEvgTmztGxPos6T-TkMf-QhpExttiX6LqkUd5y68qJkdwDa'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:Zh6Q6C97@database-issp-air-quality-instance.cmamvcvbojfv.us-west-2.rds.amazonaws.com/airQualityApiDb'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['CORS_HEADERS'] = 'Content-Type'
